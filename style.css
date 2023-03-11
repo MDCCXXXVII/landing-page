@@ -12,14 +12,15 @@ body {
 
 button1 {
     background-color: #3882F6;
-    padding: 6px;
-    border-radius: 5px;
+    padding: 10px 30px;
+    border-radius: 10px;
     font-weight: bold;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+    
     
 }
 
@@ -33,8 +34,9 @@ img {
 }
 
 .header2 {
-    flex-direction: column;
-    padding-right:120px;
+    flex-direction: row;
+    padding-right:350px;
+    padding-bottom:150px;
 }
 
 .headerlogo {
@@ -52,12 +54,17 @@ img {
     color: #E5E7EB;
 }
 
-.imgplaceholder {
-    
-    height: 350px;
-    width: 375px;
-    
+.image {
+    text-align: right;
+    flex-direction: row;
+    padding-right:250px;
 }
+
+.imgplaceholder {
+    display:flex;
+    flex: 1;
+}
+
 
 
 .about {
@@ -67,14 +74,6 @@ img {
 
 .aboutwhy {
     flex-wrap: wrap;
-}
-
-.clearfix {
-    flex-wrap: wrap;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    color:#E5E7EB;
+    font-size:18px;
 }
